@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="364.0" prefWidth="633.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.HelloController">
+   <children>
+      <Label layoutX="238.0" layoutY="82.0" text="Easy Quiz">
+         <font>
+            <Font name="High Tower Text" size="36.0" />
+         </font></Label>
+      <Button fx:id="PlayQuizButton" layoutX="179.0" layoutY="171.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="275.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 32px; -fx-border-radius: 32px;" text="PLAY" textFill="WHITE">
+         <font>
+            <Font name="High Tower Text" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

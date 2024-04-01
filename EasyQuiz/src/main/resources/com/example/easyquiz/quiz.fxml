@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.easyquiz.QuizController">
+   <children>
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="10.0" prefHeight="200.0" prefWidth="517.0" text="1. What is the sum of 5 + 3?" wrapText="true">
+         <font>
+            <Font name="High Tower Text" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="op1" layoutX="89.0" layoutY="210.0" mnemonicParsing="false" onAction="#op1clicked" prefHeight="71.0" prefWidth="196.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10; -fx-border-radius: 10;" text="6" textFill="WHITE">
+         <font>
+            <Font name="High Tower Text" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="op2" layoutX="315.0" layoutY="210.0" mnemonicParsing="false" onAction="#op2clicked" prefHeight="71.0" prefWidth="196.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10; -fx-border-radius: 10;" text="8" textFill="WHITE">
+      <font>
+         <Font name="High Tower Text" size="24.0" />
+      </font>
+   </Button>
+      <Button fx:id="op3" layoutX="89.0" layoutY="299.0" mnemonicParsing="false" onAction="#op3clicked" prefHeight="71.0" prefWidth="196.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10; -fx-border-radius: 10;" text="10" textFill="WHITE">
+      <font>
+         <Font name="High Tower Text" size="24.0" />
+      </font>
+   </Button>
+      <Button fx:id="op4" layoutX="315.0" layoutY="299.0" mnemonicParsing="false" onAction="#op4clicked" prefHeight="71.0" prefWidth="196.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 10; -fx-border-radius: 10;" text="12" textFill="WHITE">
+         <font>
+            <Font name="High Tower Text" size="24.0" />
+         </font>
+      </Button>
+
+
+   </children>
+</AnchorPane>
